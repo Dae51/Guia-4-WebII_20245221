@@ -119,7 +119,7 @@ export const ExpenseForm = () => {
           id="amount"
           placeholder="Añade la Cantidad del gasto: ej. 300"
           className=" bg-slate-100 p-2"
-          name="amount" // se usa para identificar el campo en el formulario
+          name="amount"  
           value={expense.amount}
           onChange={handleChange}
 
